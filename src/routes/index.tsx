@@ -5,7 +5,7 @@ import { Speak, $translate as t } from 'qwik-speak';
 export default component$(() => {
   return (
     <>
-      <Speak assets={['home']}>
+      <Speak assets={['home']} runtimeAssets={['home']}>
         <div>{t('home.text')} </div>
       </Speak>
     </>
